@@ -1,0 +1,46 @@
+.counter {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+
+.counter-number{
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+
+.button{
+    font-size: 16px;
+    padding: 10px, 20px;
+    border:0;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+
+.button:hover {
+    opacity: 0.8;
+    transition: opacity .25s;
+}
+
+
+.crazy-button {
+    animation: shake 0.3s infinite;
+    background-color: hotpink !important;
+    color: white;
+    transform: rotate(5deg);
+}
+
+@keyframes shake {
+    0% { transform: translateX(0) rotate(5deg); }
+    25% { transform: translateX(-5px) rotate(-5deg); }
+    50% { transform: translateX(5px) rotate(5deg); }
+    75% { transform: translateX(-5px) rotate(-5deg); }
+    100% { transform: translateX(0) rotate(5deg); }
+}
